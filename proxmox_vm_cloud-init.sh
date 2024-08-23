@@ -32,10 +32,10 @@ show_help() {
   echo "   * mandatory arguments to run the script"
   echo ""
   echo "Short command: (you must define values in the STATIC VARIABLE DECLARATION section of the script)"
-  echo  "$0 -i 1011 -n ubuntu-test-vm"
+  echo "$0 -i 1011 -n ubuntu-test-vm"
   echo ""
   echo "Long command:"
-  echo  "$0 -i 1011 -n ubuntu-test-vm -m bc:24:11:00:00:00 -c https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img -s local-zfs -r 4096 -p 2 -d 20 -b vmbr0 -u username_to_configure --password-hash 'AAAA...' --ssh-key 'ssh-rsa AAAA...' -a amd64 -U http://gb.archive.ubuntu.com/ubuntu"
+  echo "$0 -i 1011 -n ubuntu-test-vm -m bc:24:11:00:00:00 -c https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img -s local-zfs -r 4096 -p 2 -d 20 -b vmbr0 -u username_to_configure --password-hash 'AAAA...' --ssh-key 'ssh-rsa AAAA...' -a amd64 -U http://gb.archive.ubuntu.com/ubuntu"
   echo ""
   exit 0
 }
