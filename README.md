@@ -76,5 +76,6 @@ The script takes a minimum number of 2 arguments/option:
 
 `-n` ot `--mame` followed by the VMNAME
 
-Most of the other parameters are still mandatory but you can set predefined values for them by editing the scrip section "START OF STATIC VARIABLE DECLARATION
-I might export this to a config file in future script update, but only if I can be bothered :-)
+Most of the other parameters are still mandatory but you can set predefined values for them by editing the script section "START OF STATIC VARIABLE DECLARATION
+
+I might move this to a config file (instead of having to change the values in the script) in a future script update, but only if I can be bothered :-)
